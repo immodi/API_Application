@@ -36,7 +36,7 @@ namespace ApiApplication
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
             });
-
+            // test
             builder.Services.AddIdentityServices(builder.Configuration);
 
            
